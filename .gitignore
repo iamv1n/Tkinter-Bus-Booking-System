@@ -1,0 +1,12 @@
+Project/*
+
+/Project
+
+**/Project
+
+.vscode/
+
+.vscode/*
+
+/__pycache__
+__pycache__/*
