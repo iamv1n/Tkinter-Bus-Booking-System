@@ -209,7 +209,7 @@ def btnbook():
         "askyesno", "Please confirm if you want to Book the ticket?"
     )
 
-    if message == True:
+    if message is True:
         # bookticket(info)
         messagebox.showinfo("Ticket Booking", "Ticket Booked Successfully")
     else:

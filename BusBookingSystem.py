@@ -787,7 +787,7 @@ class BBS:
                 "askyesno", "Please confirm if you want to Book the ticket?"
             )
 
-            if message == True:
+            if message is True:
                 print("Yes Book Ticket")
                 # bookticket(info)
                 details = getbusdetails()
